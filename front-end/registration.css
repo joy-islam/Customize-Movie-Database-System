@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  color: #EE671A
+}
+h2{
+  text-align: center;
+  color: #13C5E9
+}
+form{
+  text-align: center;
+}
+.nav-link{
+color:#EE671A ;
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+margin: 10px;
+text-transform: uppercase;
+display: block;
+}
+body{
+  background-image: url('./img2.png');
+}
+input[type="password"]
+{
+font-size: 20px;
+text-decoration: overline;
+background-color: #95CAD5  ;
+padding: 0px;
+font-family: cursive;
+}
+
+input[type="text"]
+{
+font-size: 20px;
+text-decoration: overline;
+background-color:#95CAD5   ;
+padding: 0px;
+font-family: verdana;
+}
+.nav-link:hover{
+text decoration:underline;
+}

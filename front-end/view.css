@@ -1,0 +1,26 @@
+h1{color: 	black;
+text-align: center;
+font-size: 60px;}
+
+.motable{
+  margin-top: 30%;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  font-size: 1.3em;
+  min-width: 400px;
+}
+.motable thead tr{background-color: #00E8FF;
+color: black;
+text-align: left;}
+.motable tbody tr{
+  text-align: center;
+}
+.motable th,
+.motable tr{
+  padding: 12px 15px;
+}
+.motable td:nth-child(2n+1)
+{background-color: #BCBCBC;}
+.motable td:nth-child(2n+2)
+{background-color: #A3D5FF;}

@@ -1,0 +1,23 @@
+h2{
+  text-align: center;
+  background-color: #EE6912
+}
+h1{
+  background-color: #0FF3E5
+}
+body{
+  background-image: url('https://www.pixel4k.com/wp-content/uploads/2020/05/parasite-movie_1589578246-1536x864.jpg');
+  font-style:  normal;
+font-weight:bold;
+font-size-adjust: 30px;
+
+}
+p{
+font-size-adjust: 30px;
+font-display: block;
+font-variant-position: super;
+}
+.nav-link{
+  padding: 70px;
+
+}
