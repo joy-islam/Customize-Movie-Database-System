@@ -1,0 +1,67 @@
+h1{color: 	black;
+text-align: center;
+font-size: 60px;}
+body{background-color: #717171}
+.motable{
+  width: 50%;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  font-size: 1.3em;
+  min-width: 400px;
+}
+.motable thead tr{background-color: #00E8FF;
+color: black;
+text-align: center;}
+.motable tbody tr{
+  text-align: center;
+}
+.motable th,
+.motable tr{
+  padding: 20px 15px;
+}
+.motable td:nth-child(2n+1)
+{background-color: #BCBCBC;}
+.motable td:nth-child(2n+2)
+{background-color: #A3D5FF;}
+
+.box input[type = "text"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: .25s;
+}
+.box input[type = "text"]:focus
+{
+  width: 280px;
+  border-color: #A239F3;
+}
+
+.box input[type = "submit"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: .25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #000000;
+}

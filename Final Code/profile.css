@@ -1,0 +1,34 @@
+body{
+  background-color: aquamarine;
+}
+.nav-url:hover {
+
+  width: 85%;
+  padding: 35px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+.nav-url:hover::after{
+list-style:none;
+display:inline-block;
+margin: 20px;
+}
+.contant h1{
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: cursive;
+background-color: #fff;
+}
+
+.nav-url{
+  background-color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  justify-content: space-between;
+}
